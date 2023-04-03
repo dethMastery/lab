@@ -9,3 +9,9 @@
  * 1st smallest = 1
  * 2nd smallest = 3
  */
+
+import { solution } from "./src/solution.controller"
+
+let input = [1, 6, 3, 9, 8, 5]
+
+solution(input);
