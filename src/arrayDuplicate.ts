@@ -5,8 +5,7 @@
  **/
 
 const arrayInput: number[] = [1,2,3,4,5,6,5,7,7,8,9,10,11,12,13,10]
-arrayInput.sort((previousNo: number, nextNo: number): any => {
-  return previousNo - nextNo
-})
 
-console.log(arrayInput);
+const result = arrayInput.filter((no, index) => arrayInput.indexOf(no) != index);
+
+console.log(result);
