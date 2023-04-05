@@ -1,11 +1,28 @@
-/**
- * find duplicate number from array [1,2,3,4,5,6,5,7,7,8,9,10,11,12,13,10]
- * input: [1,2,3,4,5,6,5,7,7,8,9,10,11,12,13,10]
- * output: [5,7,10]
- **/
+export function arrayCheck(arrays: number[]) {
+  let duplicate: number[] = [];
 
-const arrayInput: number[] = [1,2,3,4,5,6,5,7,7,8,9,10,11,12,13,10]
+  let i = 0
 
-const result = arrayInput.filter((no, index) => arrayInput.indexOf(no) != index);
+  for (let array of arrays) {
+    let temp = i
 
-console.log(result);
+    for (i; i < arrays.length; i++) {
+      if (array == arrays[i+1]) {
+        duplicate.push(array)
+        i = temp
+
+        break;
+      }
+
+      if ((i + 1) == arrays.length) {
+        i = temp
+
+        break;
+      }
+    }
+    
+    i++
+  }
+
+  return duplicate;
+}
