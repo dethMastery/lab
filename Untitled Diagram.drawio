@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-10-07T14:28:30.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="22.1.18" etag="U3rBqBFV4rHCZaOMHV3H" type="github">
+<mxfile host="app.diagrams.net" modified="2024-10-07T14:33:46.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="b7UQ2tBIkqgldfN4ZF1z" version="22.1.18" type="github">
   <diagram name="Page-1" id="BrWyUh9fMqHQ_6g5dJx_">
-    <mxGraphModel>
+    <mxGraphModel dx="1102" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-1" target="jd8y6deY16W5o_fFu1Fm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-1" target="jd8y6deY16W5o_fFu1Fm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Is in Database?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="265" y="280" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-3" target="jd8y6deY16W5o_fFu1Fm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Login&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="130" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-4" target="jd8y6deY16W5o_fFu1Fm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="680" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-10" target="jd8y6deY16W5o_fFu1Fm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create New User&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="285" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pick items from the Menu ( &quot;Tour &amp;amp; Package&quot; or &quot;Souvenir&quot; )&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jd8y6deY16W5o_fFu1Fm-15" target="jd8y6deY16W5o_fFu1Fm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jd8y6deY16W5o_fFu1Fm-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+          <mxGeometry x="640" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
